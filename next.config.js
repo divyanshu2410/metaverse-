@@ -1,15 +1,10 @@
-const { default: plugin } = require('tailwindcss');
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   experimental: {
-    appDir: true,
+    appDir: false,
   },
 };
 
 
 
 module.exports = nextConfig;
-
-plugin
