@@ -1,8 +1,8 @@
 import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
 
-const Page = () => (
-  <div className="bg-blue-500  overflow-hidden">
+const Home = () => (
+  <div className="bg-blue-500 overflow-hidden">
     <Navbar />
     <Hero />
     <div className="relative">
@@ -24,4 +24,4 @@ const Page = () => (
   </div>
 );
 
-export default Page;
+export default Home;
