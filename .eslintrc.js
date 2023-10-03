@@ -16,6 +16,7 @@ module.exports = {
   },
   plugins: [
     'react',
+    "@netlify/plugin-nextjs"
   ],
   rules: {
     'react/no-unescaped-entities': 0,
